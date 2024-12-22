@@ -1,0 +1,4 @@
+INSERT INTO Candidate (name, lastname, phone_number, gender, email, salary_expected) VALUES ('Francisco', 'Sevilla', '+584128677922', 'M', 'sevillafrancisco04@gmail.com', 'USD2300');
+INSERT INTO Candidate (name, lastname, phone_number, gender, email, salary_expected) VALUES ('Ramon', 'Perez', '+513586987412', 'M', 'ramonperez@gmail.com', 'PEN8560');
+INSERT INTO Candidate (name, lastname, phone_number, gender, email, salary_expected) VALUES ('Maria', 'Mendez', '+57258963147', 'F', 'mariamendez@gmail.com', 'USD2300');
+INSERT INTO Candidate (name, lastname, phone_number, gender, email, salary_expected) VALUES ('Andrea', 'Martinez', '+54896321475', 'F', 'andreamartinez@gmail.com', 'USD2300');

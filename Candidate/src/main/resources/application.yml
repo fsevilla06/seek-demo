@@ -1,0 +1,23 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: Candidate
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+  datasource:
+    url: jdbc:mysql://localhost:3307/seek_demo_candidate
+    username: root
+    password: 1234
+  flyway:
+    validateMigrationNaming: false
+    encoding: UTF-8
+eureka:
+    client:
+      serviceUrl:
+        defaultZone: http://localhost:8761/eureka/
+    instance:
+        preferIpAddress: true
+        instanceId: ${spring.application.name}:${spring.application.instance_id:${random.value}}
